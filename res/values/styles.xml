@@ -2,9 +2,54 @@
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
 
+
     <!-- Application theme. -->
+    <style name="Theme.AppStartLoadTranslucent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <declare-styleable name="MaterialMenuView">
+        <attr name="mm_color" format="color" />
+        <attr name="mm_scale" format="integer" />
+        <attr name="mm_transformDuration" format="integer" />
+        <attr name="mm_pressedDuration" format="integer" />
+        <attr name="mm_strokeWidth" format="integer" />
+        <attr name="mm_rtlEnabled" format="boolean" />
+    </declare-styleable>
+
+    <style name="CustomActionBarStyle" parent="@android:style/Widget.ActionBar">
+
+        <!-- Change action bar background color -->
+        <item name="android:background">@color/title_bg</item>
+        <item name="android:backgroundSplit">@color/title_bg</item>
+        <item name="android:titleTextStyle">@style/CustomTitleTextStyle</item>
+    </style>
+
+    <style name="CustomTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="CustomActionButtonStyle" parent="@android:style/Widget.ActionButton">
+
+        <!-- Change action button background color -->
+        <item name="android:background">@drawable/action_button_background</item>
+    </style>
+
+    <style name="CustomActionOverflowButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+
+        <!-- Change overflow button background color -->
+        <item name="android:background">@drawable/action_button_background</item>
+    </style>
+
+    <style name="CustomActionTextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_list_item_bg</item>
+    </style>
 
 </resources>

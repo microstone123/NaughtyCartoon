@@ -3,5 +3,43 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="degree_icon_size">26.0dip</dimen>
+    <dimen name="abs__action_bar_default_height">48.0dip</dimen>
+    <!-- DrawerLayout -->
+    <dimen name="mm_up_arrow_margin">-16dp</dimen>
+
+    <!-- cartoon dimen -->
+    <dimen name="stone_cartoon_1">1px</dimen>
+    <dimen name="stone_cartoon_2">2dp</dimen>
+    <dimen name="stone_cartoon_3">3dp</dimen>
+    <dimen name="stone_cartoon_10">10dp</dimen>
+    <dimen name="stone_cartoon_15">15dp</dimen>
+    <dimen name="stone_cartoon_18">18dp</dimen>
+    <dimen name="stone_cartoon_20">20dp</dimen>
+    <dimen name="stone_cartoon_25">25dp</dimen>
+    <dimen name="stone_cartoon_30">30dp</dimen>
+    <dimen name="stone_cartoon_150">150dp</dimen>
+
+    <!-- video dimen -->
+    <dimen name="stone_video_1">1px</dimen>
+    <dimen name="stone_video_2">2dp</dimen>
+    <dimen name="stone_video_3">3dp</dimen>
+    <dimen name="stone_video_10">10dp</dimen>
+    <dimen name="stone_video_15">15dp</dimen>
+    <dimen name="stone_video_18">18dp</dimen>
+    <dimen name="stone_video_20">20dp</dimen>
+    <dimen name="stone_video_25">25dp</dimen>
+    <dimen name="stone_video_30">30dp</dimen>
+
+    <!-- news dimen -->
+    <dimen name="stone_news_1">1px</dimen>
+    <dimen name="stone_news_2">2dp</dimen>
+    <dimen name="stone_news_3">3dp</dimen>
+    <dimen name="stone_news_10">10dp</dimen>
+    <dimen name="stone_news_15">15dp</dimen>
+    <dimen name="stone_news_18">18dp</dimen>
+    <dimen name="stone_news_20">20dp</dimen>
+    <dimen name="stone_news_25">25dp</dimen>
+    <dimen name="stone_news_30">30dp</dimen>
 
 </resources>

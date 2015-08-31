@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">NaughtyCartoon</string>
+    <string-array name="menu_array">
+        <item>漫画</item>
+        <item>视频</item>
+        <item>资讯</item>
+        <item>反馈</item>
+    </string-array>
+
+    <string name="app_name">调皮蛋动漫</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="radio_cor">#EEEEEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="title_bg">#E84fb016</color>
+    <color name="title_item_click_d">#A272b44c</color>
+    <color name="forecast_gray">#88ffffff</color>
+
+    <drawable name="red_w">#6d9eeb</drawable>
+    <drawable name="half_transparent">#3E000000</drawable>
+
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="lightblue">#ADD8E6</color>
+    <color name="skyblue">#87CEEB</color>
+
+</resources>
