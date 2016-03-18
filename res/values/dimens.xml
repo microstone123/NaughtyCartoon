@@ -20,26 +20,7 @@
     <dimen name="stone_cartoon_30">30dp</dimen>
     <dimen name="stone_cartoon_150">150dp</dimen>
 
-    <!-- video dimen -->
-    <dimen name="stone_video_1">1px</dimen>
-    <dimen name="stone_video_2">2dp</dimen>
-    <dimen name="stone_video_3">3dp</dimen>
-    <dimen name="stone_video_10">10dp</dimen>
-    <dimen name="stone_video_15">15dp</dimen>
-    <dimen name="stone_video_18">18dp</dimen>
-    <dimen name="stone_video_20">20dp</dimen>
-    <dimen name="stone_video_25">25dp</dimen>
-    <dimen name="stone_video_30">30dp</dimen>
-
-    <!-- news dimen -->
-    <dimen name="stone_news_1">1px</dimen>
-    <dimen name="stone_news_2">2dp</dimen>
-    <dimen name="stone_news_3">3dp</dimen>
-    <dimen name="stone_news_10">10dp</dimen>
-    <dimen name="stone_news_15">15dp</dimen>
-    <dimen name="stone_news_18">18dp</dimen>
-    <dimen name="stone_news_20">20dp</dimen>
-    <dimen name="stone_news_25">25dp</dimen>
-    <dimen name="stone_news_30">30dp</dimen>
+    <!-- text size -->
+    <dimen name="c_textsize">16sp</dimen>
 
 </resources>

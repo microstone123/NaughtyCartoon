@@ -8,7 +8,8 @@
         <item>反馈</item>
     </string-array>
 
-    <string name="app_name">调皮蛋动漫</string>
+    <string name="cartoon_name">调皮蛋动漫</string>
+    <string name="cartoon_str">漫画</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 

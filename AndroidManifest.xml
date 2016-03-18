@@ -11,7 +11,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/cartoon_name"
         android:theme="@style/Theme.AppStartLoadTranslucent" >
         <activity
             android:name="com.naughty.cartoon.ui.aci.MainActivity"

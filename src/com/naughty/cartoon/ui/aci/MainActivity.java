@@ -8,17 +8,13 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
+
 import com.naughty.cartoon.R;
 import com.naughty.cartoon.materialmenu.MaterialMenuDrawable;
 import com.naughty.cartoon.materialmenu.MaterialMenuDrawable.Stroke;
@@ -38,6 +34,7 @@ public class MainActivity extends FragmentActivity {
 	/** 菜单打开/关闭状态 */
 	private boolean isDirection_left = false;
 	private View showView;
+	private TextView bar_title;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +62,7 @@ public class MainActivity extends FragmentActivity {
 	}
 
 	private void initui() {
+		bar_title = (TextView)findViewById(R.id.bar_title);
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		mMenuListView = (ListView) findViewById(R.id.left_drawer);
 	}
@@ -73,6 +71,7 @@ public class MainActivity extends FragmentActivity {
 	private void setActionBar() {
 		getActionBar().setDisplayShowCustomEnabled(true);
 		getActionBar().setHomeButtonEnabled(true);
+		// getActionBar().
 	}
 
 	@Override
@@ -161,6 +160,9 @@ public class MainActivity extends FragmentActivity {
 		// 更新选择后的item和title，然后关闭菜单
 		mMenuListView.setItemChecked(position, true);
 		mDrawerLayout.closeDrawer(mMenuListView);
+//		setTitle(mMenuTitles[position]);
+		bar_title.setText(mMenuTitles[position]);
+		// sett
 	}
 
 	/**
